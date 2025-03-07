@@ -2,7 +2,7 @@
 
 ![FilmSphere Logo](https://filmsphere.me/images/logo.png)
 
-**FilmSphere** is a fun, coin-based movie reservation system built as a learning project by Anupam, Rachit, and Keshav. Inspired by [roadmap.sh](https://roadmap.sh), it’s designed to explore web development concepts through an engaging cinematic experience. Users can browse movies, book show tickets with virtual coins, and enjoy features like interactive seating, booking history, and a responsive design.
+**FilmSphere** is a fun, coin-based movie reservation system built as a learning project by Anupam, Rachit, and Keshav. Inspired by [roadmap.sh](https://roadmap.sh/projects/movie-reservation-system/), it’s designed to explore web development concepts through an engaging cinematic experience. Users can browse movies, book show tickets with virtual coins, and enjoy features like interactive seating, booking history, and a responsive design.
 
 This is an open-source project, and we welcome contributions! Check out our [GitHub repository](https://github.com/filmsphere/filmsphere) to get involved.
 
@@ -75,31 +75,26 @@ FilmSphere organizes its functionality into public, protected, and admin routes:
 ### Admin Routes (Admin Users)
 
 - `/admin/:tab`: Admin dashboard with tabs for managing movies, shows, and bookings.
-- `/admin/show/:showId`: Insights and analytics for a specific show.
 
 ---
 
 ## Screenshots
 
-### Landing Page (`/`)
+### Home Page
 
-![Landing Page](/screenshots/landing.png)  
-_The welcoming gateway to FilmSphere with a stunning gradient title and particle background._
+![Home Page](/public/home.jpg)
 
-### Movie Details (`/movie/:movieId`)
+### Seat Booking
 
-![Movie Details](/screenshots/movie-details.png)  
-_Browse detailed movie info and book a show._
+![Seat Booking](/public/interactive_seats.jpg)
 
-### Booking Page (`/booking`)
+### Profile Page
 
-![Booking Page](/screenshots/booking.png)  
-_Interactive seating layout for selecting your seats._
+![Profile Page](/public/profile.jpg)
 
-### Admin Dashboard (`/admin/:tab`)
+### Responsive Design
 
-![Admin Dashboard](/screenshots/admin-dashboard.png)  
-_Manage movies, shows, and more with an admin interface._
+![Responsive Design](/public/responsive.jpg)
 
 ---
 
@@ -118,8 +113,8 @@ Follow these steps to set up FilmSphere locally and start exploring or contribut
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/filmsphere/filmsphere.git
-   cd filmsphere
+   git clone https://github.com/filmsphere/frontend.git
+   cd frontend
    ```
 
 2. **Install Dependencies**

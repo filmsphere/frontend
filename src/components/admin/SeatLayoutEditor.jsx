@@ -152,7 +152,7 @@ const SeatLayoutEditor = ({ onLayoutChange }) => {
   };
 
   return (
-    <div className="p-6 rounded-lg">
+    <div className="p-2 sm:p-6 rounded-lg">
       <div className="flex flex-wrap gap-4 mb-4">
         <button
           type="button"

@@ -47,13 +47,13 @@ const BookingProcess = ({
     <div className="space-y-8">
       {/* Seat Selection */}
       {step === 1 && (
-        <Card className="p-4 sm:p-6">
+        <Card className="p-2 sm:p-6">
           <CardHeader>
             <CardTitle className="text-xl sm:text-2xl font-bold text-center text-neutral-900 dark:text-neutral-50">
               Select Your Seats
             </CardTitle>
           </CardHeader>
-          <CardContent className="space-y-6">
+          <CardContent className="space-y-6 px-2 sm:px-6">
             {/* Screen Visualization */}
             <div className="relative">
               <div className="w-full h-8 sm:h-12 rounded-t-lg shadow-inner flex items-center justify-center text-sm sm:text-base font-semibold bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300">
@@ -64,7 +64,7 @@ const BookingProcess = ({
                 style={{ boxShadow: "0 0 10px 2px rgba(59, 130, 246, 0.5)" }}
               />
             </div>
-
+  
             {/* Seat Grid */}
             <SeatGrid
               layout={layout}
@@ -72,7 +72,7 @@ const BookingProcess = ({
               onSeatClick={onSeatClick}
               seatTypes={seatTypes}
             />
-
+  
             {/* Seat Legend */}
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               {Object.entries(seatTypes).map(([type, { price, color }]) => {
@@ -95,7 +95,7 @@ const BookingProcess = ({
           </CardContent>
         </Card>
       )}
-
+  
       {/* Payment Section */}
       {step === 2 && (
         <Card className="p-4">
@@ -143,7 +143,7 @@ const BookingProcess = ({
           </CardContent>
         </Card>
       )}
-
+  
       {/* Selected Seats Preview */}
       {selectedSeats.length > 0 && step === 1 && (
         <Card className="p-4">

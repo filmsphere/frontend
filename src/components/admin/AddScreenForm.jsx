@@ -51,7 +51,7 @@ const AddScreenForm = () => {
   };
 
   return (
-    <div className="p-6 rounded-lg shadow-md bg-background text-foreground">
+    <div className="p-2 sm:p-6 rounded-lg shadow-md bg-background text-foreground">
       <h2 className="text-2xl font-bold mb-4">Add New Screen</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">

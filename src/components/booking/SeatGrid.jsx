@@ -10,9 +10,9 @@ const SeatGrid = ({ layout, selectedSeats, onSeatClick, seatTypes }) => {
   }
 
   return (
-    <div className="overflow-x-auto p-4">
+    <div className="overflow-x-auto p-2">
       <div
-        className="grid gap-2 sm:gap-3 mx-auto"
+        className="grid gap-x-1 gap-y-3 sm:gap-x-3 sm:gap-y-3 mx-auto"
         style={{
           gridTemplateColumns: `repeat(${layout[0].seats.length}, minmax(2rem, 1fr))`,
           minWidth: `${layout[0].seats.length * 2.5}rem`,
@@ -32,7 +32,7 @@ const SeatGrid = ({ layout, selectedSeats, onSeatClick, seatTypes }) => {
                 key={seat.id}
                 onClick={() => onSeatClick(seat)}
                 disabled={isDisabled || isNotSeat}
-                className={`w-8 h-8 sm:w-10 sm:h-10 rounded-md flex items-center justify-center text-xs sm:text-sm font-medium border-2 transition-all duration-200 ${
+                className={`w-6 h-6 sm:w-10 sm:h-10 rounded-[1vw] sm:rounded-xl flex items-center justify-center text-xs sm:text-sm font-medium border-2 transition-all duration-200 ${
                   isNotSeat
                     ? "cursor-not-allowed opacity-0"
                     : isDisabled

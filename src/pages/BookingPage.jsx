@@ -134,7 +134,7 @@ const BookingPage = () => {
   };
 
   return (
-    <div className="min-h-screen p-8 bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50">
+    <div className="min-h-screen p-4 bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-neutral-900 dark:text-neutral-50">
           Booking: {movie?.title}
