@@ -1,6 +1,6 @@
 # FilmSphere
 
-![FilmSphere Logo](https://filmsphere.me/images/logo.png)
+![FilmSphere Logo](banner.png)
 
 **FilmSphere** is a fun, coin-based movie reservation system built as a learning project by Anupam, Rachit, and Keshav. Inspired by [roadmap.sh](https://roadmap.sh/projects/movie-reservation-system/), it’s designed to explore web development concepts through an engaging cinematic experience. Users can browse movies, book show tickets with virtual coins, and enjoy features like interactive seating, booking history, and a responsive design.
 
