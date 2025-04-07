@@ -91,7 +91,7 @@ const AboutPage = () => {
               roadmap.sh
             </a>
             , allowing users to browse movies, book virtual show tickets using a
-            coin-based system, and interact with features like an interactive
+            coin-based system, and use features such as a interactive
             seating layout and booking history.
           </p>
         </section>
